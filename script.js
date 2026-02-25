@@ -28,9 +28,10 @@ const translations = {
         },
         projects: {
             title: "Proyectos",
-            p1desc: "Descripción del proyecto. Aquí puedes agregar los detalles de tu primer proyecto.",
-            p2desc: "Descripción del proyecto. Aquí puedes agregar los detalles de tu segundo proyecto.",
-            p3desc: "Descripción del proyecto. Aquí puedes agregar los detalles de tu tercer proyecto.",
+            weatherSpot: "Plataforma en línea especializada en ofrecer pronósticos meteorológicos generales de todos los lugares del mundo. Esto se logra con una implementación de Open-Meteo API.",
+            dbpes6: "Página web dedicada para la comunidad del videojuego PES 6. Cuenta con un sistema de usuarios y una base de datos con información sobre jugadores y equipos del juego, quienes los usuarios pueden crearlos.",
+            brushUp: "Aplicación móvil de productividad que combina técnicas de gestión del tiempo con un diseño atractivo. Permite a los usuarios organizar tareas, establecer recordatorios y monitorear su progreso diario.",
+            chatUs: "Prototipo de IA conversacional desarrollado con Flask. Permite a los usuarios interactuar con un chatbot que responde preguntas y ofrece información en tiempo real, demostrando capacidades de procesamiento de lenguaje natural.",
             coming: "Próximamente",
             comingDesc: "Proyecto en desarrollo. ¡Muy pronto disponible!",
             dev: "En desarrollo",
@@ -42,6 +43,7 @@ const translations = {
             connect: "¡Conectemos!",
             text: "¿Tienes alguna pregunta o quieres trabajar juntos? No dudes en escribirme.",
             name: "Nombre",
+            email: "Email",
             message: "Mensaje",
             send: "Enviar Mensaje"
         },
@@ -81,9 +83,10 @@ const translations = {
         },
         projects: {
             title: "Projects",
-            p1desc: "Project description. You can add details about your first project here.",
-            p2desc: "Project description. You can add details about your second project here.",
-            p3desc: "Project description. You can add details about your third project here.",
+            weatherSpot: "Online platform specialized in providing general weather forecasts for all locations worldwide. This is achieved using Open-Meteo API integration.",
+            dbpes6: "Website dedicated to the PES 6 video game community. It features a user system and a database with information about players and teams, which users can create.",
+            brushUp: "Mobile productivity application that combines time management techniques with an attractive design. Allows users to organize tasks, set reminders, and monitor their daily progress.",
+            chatUs: "Conversational AI prototype developed with Flask. Enables users to interact with a chatbot that answers questions and provides real-time information, demonstrating natural language processing capabilities.",
             coming: "Coming Soon",
             comingDesc: "Project in development. Coming very soon!",
             dev: "In development",
@@ -95,6 +98,7 @@ const translations = {
             connect: "Let's Connect!",
             text: "Do you have any questions or want to work together? Feel free to reach out.",
             name: "Name",
+            email: "Email",
             message: "Message",
             send: "Send Message"
         },

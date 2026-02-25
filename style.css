@@ -519,7 +519,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 .skill-list li:hover {
@@ -604,6 +604,12 @@ body {
     font-size: 4rem;
     color: var(--primary-blue);
     opacity: 0.7;
+}
+
+.project-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .project-content {
@@ -788,6 +794,42 @@ footer {
     padding: 2rem;
     color: var(--text-secondary);
     font-size: 0.9rem;
+}
+
+/* ========================================
+   NOTIFICATIONS
+======================================== */
+.notification {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 4px 4px 8px var(--shadow-dark);
+    z-index: 2000;
+    animation: slideIn 0.3s ease;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+
+.notification-success {
+    background: #27c93f;
+}
+
+.notification-error {
+    background: #ff5f56;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOut {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
 }
 
 /* ========================================
