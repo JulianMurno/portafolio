@@ -3,6 +3,7 @@ const translations = {
         nav: {
             home: "Inicio",
             education: "Educación",
+            experience: "Experiencia",
             skills: "Habilidades",
             projects: "Proyectos",
             contact: "Contacto"
@@ -20,6 +21,14 @@ const translations = {
             degree: "Tecnicatura Superior de Análisis de Sistemas de Computación",
             period: "2024 - 2026",
             status: "En curso"
+        },
+        experience: {
+            title: "Experiencia",
+            position: "Pasante de Sistemas",
+            period: "Ago. 2025 – Dic. 2025",
+            task1: "Optimización de Procesos: Detecté oportunidades de mejora clave mediante el análisis de procesos operativos.",
+            task2: "Arquitectura de Información: Diseñé un sistema de gestión de inventario, optimizando la trazabilidad de stock y pedidos.",
+            task3: "Gestión de Requerimientos: Elaboré documentación técnica funcional y no funcional alineada a las necesidades del cliente."
         },
         skills: {
             title: "Habilidades",
@@ -58,6 +67,7 @@ const translations = {
         nav: {
             home: "Home",
             education: "Education",
+            experience: "Experience",
             skills: "Skills",
             projects: "Projects",
             contact: "Contact"
@@ -75,6 +85,14 @@ const translations = {
             degree: "Higher Technician in Computer Systems Analysis",
             period: "2024 - 2026",
             status: "In progress"
+        },
+        experience: {
+            title: "Experience",
+            position: "Systems Intern",
+            period: "Aug. 2025 – Dec. 2025",
+            task1: "Process Optimization: Identified key improvement opportunities through analysis of operational processes.",
+            task2: "Information Architecture: Designed an inventory management system, optimizing stock and order traceability.",
+            task3: "Requirements Management: Created functional and non-functional technical documentation aligned with client needs."
         },
         skills: {
             title: "Skills",
@@ -258,7 +276,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Add animation styles to elements
-document.querySelectorAll('.skill-card, .project-card, .education-card').forEach(el => {
+document.querySelectorAll('.skill-card, .project-card, .education-card, .experience-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'all 0.6s ease';

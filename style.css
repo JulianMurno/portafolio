@@ -450,6 +450,111 @@ body {
 }
 
 /* ========================================
+   EXPERIENCE SECTION
+======================================== */
+.experience {
+    padding: 6rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-card {
+    background: var(--bg-color);
+    padding: 2.5rem;
+    border-radius: 25px;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    box-shadow: 10px 10px 20px var(--shadow-dark), 
+                -10px -10px 20px var(--shadow-light);
+    max-width: 700px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 15px 15px 30px var(--shadow-dark), 
+                -15px -15px 30px var(--shadow-light);
+}
+
+.experience-icon {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--bg-color);
+    box-shadow: inset 4px 4px 8px var(--shadow-dark), 
+                inset -4px -4px 8px var(--shadow-light);
+    font-size: 2rem;
+    color: var(--primary-blue);
+}
+
+.experience-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.experience-company {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.experience-location {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.experience-period {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.experience-tasks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.experience-tasks li {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.experience-tasks li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary-blue);
+}
+
+/* ========================================
    SKILLS SECTION
 ======================================== */
 .skills {
